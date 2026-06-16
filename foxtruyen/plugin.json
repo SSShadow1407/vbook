@@ -1,0 +1,25 @@
+{
+    "metadata": {
+        "name": "FoxTruyen",
+        "author": "TênCủaBạn",
+        "version": 1,
+        "source": "https://foxtruyen2.com/",
+        "regexp": "https?:\\/\\/(?:www\\.)?foxtruyen2\\.com\\/truyen-tranh\\/[^\\s]+",
+        "description": "Đọc truyện tranh trên FoxTruyen.",
+        "locale": "vi_VN",
+        "language": "javascript",
+        "type": "comic"
+    },
+    "script": {
+        "home": "home.js",
+        "genre": "genre.js",
+        "search": "search.js",
+        "detail": "detail.js",
+        "toc": "toc.js",
+        "chap": "chap.js"
+    },
+    "config": {
+        "thread_num": 2,
+        "delay": 500
+    }
+}
